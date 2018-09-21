@@ -7,7 +7,7 @@ Only jobs submitted on the SCS5 system will be in the dabase.
 ## Installation
 
 ```
-# extract source code
+git clone https://github.com/NanoNabla/LustreInfluxParser.git
 
 virtualenv -p python3 virtualenv
 source virtualenv/bin/activate
