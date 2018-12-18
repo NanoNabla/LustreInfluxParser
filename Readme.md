@@ -54,10 +54,10 @@ source virtualenv/bin/activate
 - lustre.mknod.samples
 - lustre.open.samples
 - lustre.punch.samples
-- lustre.read.max
-- lustre.read.min
-- lustre.read.samples
-- lustre.read.sum
+- lustre.read_bytes.max
+- lustre.read_bytes.min
+- lustre.read_bytes.samples
+- lustre.read_bytes.sum
 - lustre.rename.samples
 - lustre.rmdir.samples
 - lustre.samedir_rename.samples
@@ -66,10 +66,10 @@ source virtualenv/bin/activate
 - lustre.statfs.samples
 - lustre.sync.samples
 - lustre.unlink.samples
-- lustre.write.max
-- lustre.write.min
-- lustre.write.samples
-lustre.write.sum
+- lustre.write_bytes.max
+- lustre.write_bytes.min
+- lustre.write_bytes.samples
+- lustre.write_bytes.sum
 
 ## Known bugs
 - There is problem with timezone conversion and daylight saving time

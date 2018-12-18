@@ -11,12 +11,12 @@ measurements = [
     {
         'name': 'Samples',
         'unit': 'samples',
-        'measurements': [{'name': 'read', 'value': 'lustre.read.samples'},
-                         {'name': 'write', 'value': 'lustre.write.samples'}]
+        'measurements': [{'name': 'read', 'value': 'lustre.read_bytes.samples'},
+                         {'name': 'write', 'value': 'lustre.write_bytes.samples'}]
     },
     {
         'name': 'Sum',
         'unit': 'size [B]',
-        'measurements': [{'name': 'read', 'value': 'lustre.read.sum'},
-                         {'name': 'write', 'value': 'lustre.write.sum'}]
+        'measurements': [{'name': 'read', 'value': 'lustre.read_bytes.sum'},
+                         {'name': 'write', 'value': 'lustre.write_bytes.sum'}]
     }]
